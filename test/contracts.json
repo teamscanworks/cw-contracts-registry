@@ -35,6 +35,7 @@
           "repository":"https://github.com/CosmWasm/cw-plus",
           "release_tag":"https://github.com/CosmWasm/cw-plus/releases/tag/v0.14.0",
           "org":"cw-plus-maintainer",
+          "security_contact": "https://github.com/CosmWasm/cw-plus/blob/main/SECURITY.md",
           "website":"https://cosmwasm.com/"
        }
     }

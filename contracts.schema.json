@@ -95,6 +95,10 @@
                     "org": {
                         "type": "string"
                     },
+                    "security_contact": {
+                        "type": "string",
+                        "format": "uri"
+                    },
                     "website": {
                         "type": "string",
                         "format": "uri"
