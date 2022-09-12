@@ -1,0 +1,115 @@
+{
+    "$id": "https://scanworks.org/contracts.schema.json",
+    "$schema": "https://json-schema.org/draft-07/schema",
+    "title": "CosmWasm Contracts Registry",
+    "description": "Contracts json is a metadata file that contains information about CosmWasm contract code in Cosmos chains.",
+    "type": "object",
+    "required": [
+        "chain_name",
+        "chain_id",
+        "bech32_prefix"
+    ],
+    "properties": {
+        "chain_name": {
+            "type": "string",
+            "pattern": "[a-z0-9]+"
+        },
+        "chain_id": {
+            "type": "string"
+        },
+        "pretty_name": {
+            "type": "string"
+        },
+        "website": {
+            "type": "string",
+            "format": "uri"
+        },
+        "status": {
+            "enum": [
+                "live",
+                "upcoming",
+                "killed"
+            ]
+        },
+        "network_type": {
+            "enum": [
+                "mainnet",
+                "testnet"
+            ]
+        },
+        "bech32_prefix": {
+            "type": "string"
+        },
+        "codebase": {
+            "type": "object",
+            "properties": {
+                "git_repo": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "cosmos_sdk_version": {
+                    "type": "string"
+                },
+                "tendermint_version": {
+                    "type": "string"
+                },
+                "cosmwasm_enabled": {
+                    "type": "boolean"
+                },
+                "cosmwasm_version": {
+                    "type": "string"
+                },
+                "libwasm-version": {
+                    "type": "string"
+                }
+            }
+        },
+        "codes": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "code_id": {
+                        "type": "integer"
+                    },
+                    "checksum": {
+                        "type": "string"
+                    },
+                    "build_info": {
+                        "type": "string"
+                    },
+                    "build_env": {
+                        "type": "string"
+                    },
+                    "module_name": {
+                        "type": "string"
+                    },
+                    "repository": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "release_tag": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "org": {
+                        "type": "string"
+                    },
+                    "website": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "required": [
+                    "code_id",
+                    "checksum",
+                    "build_info",
+                    "build_env",
+                    "module_name",
+                    "repository",
+                    "release_tag"
+                ]
+            }
+        }
+    }
+}
