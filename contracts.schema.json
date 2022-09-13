@@ -64,7 +64,7 @@
                 }
             }
         },
-        "codes": {
+        "contracts": {
             "type": "object",
             "additionalProperties": {
                 "type": "object",

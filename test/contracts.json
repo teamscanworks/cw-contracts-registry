@@ -14,7 +14,7 @@
        "cosmwasm_enabled":true,
        "libwasm-version":"1.0.0"
     },
-    "contract_codes":{
+    "contracts":{
        "1":{
           "code_id":1,
           "checksum":"c369c36b686eee18159660b3e23466d95e7b1c700219a6b97d4383ffc800f1ad",
