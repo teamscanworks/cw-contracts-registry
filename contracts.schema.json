@@ -20,17 +20,6 @@
         "pretty_name": {
             "type": "string"
         },
-        "website": {
-            "type": "string",
-            "format": "uri"
-        },
-        "status": {
-            "enum": [
-                "live",
-                "upcoming",
-                "killed"
-            ]
-        },
         "network_type": {
             "enum": [
                 "mainnet",
@@ -72,6 +61,9 @@
                     "code_id": {
                         "type": "integer"
                     },
+                    "verified": {
+                        "type": "boolean"
+                    },
                     "checksum": {
                         "type": "string"
                     },
@@ -98,14 +90,11 @@
                     "security_contact": {
                         "type": "string",
                         "format": "uri"
-                    },
-                    "website": {
-                        "type": "string",
-                        "format": "uri"
                     }
                 },
                 "required": [
                     "code_id",
+                    "verified",
                     "checksum",
                     "build_info",
                     "build_env",

@@ -1,7 +1,6 @@
 {
     "$schema":"../contracts.schema.json",
     "chain_name":"test",
-    "status":"live",
     "network_type":"mainnet",
     "pretty_name":"Test",
     "chain_id":"test-1",
@@ -17,17 +16,18 @@
     "contracts":{
        "1":{
           "code_id":1,
+          "verified": true,
           "checksum":"c369c36b686eee18159660b3e23466d95e7b1c700219a6b97d4383ffc800f1ad",
           "build_info":"workspace-optimizer:0.12.4",
           "build_env":"darwin/amd64",
           "module_name":"project1/dao-contract",
           "repository":"https://github.com/project1/dao-project",
           "release_tag":"https://github.com/project1/dao-project/releases/tag/v0.1.0",
-          "org":"Project 1 Protocol",
-          "website":"https://cosmwasm.com/"
+          "org":"Project 1 Protocol"
        },
        "4":{
           "code_id":4,
+          "verified": true,
           "checksum":"76c6c7bcac2f4214de478b530110295068789f73ed02a2d2599e2282f81f012a",
           "build_info":"workspace-optimizer:0.12.4",
           "build_env":"darwin/amd64",
@@ -35,8 +35,7 @@
           "repository":"https://github.com/CosmWasm/cw-plus",
           "release_tag":"https://github.com/CosmWasm/cw-plus/releases/tag/v0.14.0",
           "org":"cw-plus-maintainer",
-          "security_contact": "https://github.com/CosmWasm/cw-plus/blob/main/SECURITY.md",
-          "website":"https://cosmwasm.com/"
+          "security_contact": "https://github.com/CosmWasm/cw-plus/blob/main/SECURITY.md"
        }
     }
  }
