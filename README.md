@@ -16,7 +16,7 @@ The CosmWasm Contracts Registry is heavily inspired by the Cosmos Chain Registry
 
 ## Contributing
 
-We encourage pull requests from project teams to add contract data for a given chain code-id in the relevant `/{chain}/contracts.json`. We also accept pull requests from chain core developers to add or update general chain data in the relevant `json` file.
+We encourage pull requests from project teams to add contract data for a given chain `code-id` in the relevant `/{chain}/contracts.json`. We also accept pull requests from chain core developers to create their `chain` folder or update general chain data in the relevant `json` file.
 
 # contracts.json
 
