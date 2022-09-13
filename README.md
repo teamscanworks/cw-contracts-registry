@@ -3,8 +3,6 @@ This repository contains a `contracts.json` for a number of Cosmos-sdk chains wi
 
 Smart contract verification is key to ensure users are running or executing the correct contract. We believe that an open-source, open-data repository should exist to democratize information access and improve the safety of the Cosmos ecosystem. For an introduction to smart contract verification, please visit the CosmWasm [docs](https://docs.cosmwasm.com/docs/1.0/smart-contracts/verify).
 
-A schema file containing the recommended metadata structure can be found at `contracts.schema.json` in the root directory. Schemas are still undergoing revision. Optional fields may be added beyond what is contained in the schema files.
-
 The CosmWasm Contracts Registry is heavily inspired by the Cosmos Chain Registry and aims to follow its structure and workflow. You can find more about the Cosmos Chain Registry in its github [repository](https://github.com/cosmos/chain-registry).
 
 ## Web Endpoints
@@ -21,6 +19,10 @@ The CosmWasm Contracts Registry is heavily inspired by the Cosmos Chain Registry
 We encourage pull requests from project teams to add contract data for a given chain code-id in the relevant `/{chain}/contracts.json`. We also accept pull requests from chain core developers to add or update general chain data in the relevant `json` file.
 
 # contracts.json
+
+## Schema
+
+A schema file containing the recommended metadata structure can be found at `contracts.schema.json` in the root directory. Schemas are still undergoing revision. Optional fields may be added beyond what is contained in the schema files.
 
 ## Sample
 
