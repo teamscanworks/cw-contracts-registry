@@ -1,0 +1,6 @@
+{
+    "$schema":"../contracts.schema.json",
+    "chain_name":"secretnetwork",
+    "chain_id":"secret-4",
+    "bech32_prefix":"secret"
+}

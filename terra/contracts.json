@@ -1,0 +1,6 @@
+{
+    "$schema":"../contracts.schema.json",
+    "chain_name":"terra",
+    "chain_id":"columbus-5",
+    "bech32_prefix":"terra"
+}
