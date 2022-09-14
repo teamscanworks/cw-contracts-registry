@@ -6,7 +6,7 @@ Smart contract verification is key to ensure users are running or executing the 
 The CosmWasm Contracts Registry is heavily inspired by the Cosmos Chain Registry and aims to follow its structure and workflow. You can find more about the Cosmos Chain Registry in its github [repository](https://github.com/cosmos/chain-registry).
 
 ## Web Endpoints
-- TODO
+- https://codes.scanworks.org/v1/
 
 ## APIs
 - https://github.com/teamscanworks/codebreaker
