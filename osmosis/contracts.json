@@ -2,5 +2,19 @@
     "$schema":"../contracts.schema.json",
     "chain_name":"osmosis",
     "chain_id":"osmosis-1",
-    "bech32_prefix":"osmo"
-}
+    "bech32_prefix":"osmo",
+    "contracts":{
+       "1":{
+          "code_id":1,
+          "verified":true,
+          "checksum":"8ec0b9ba0419c682695e74c16379db5d268289bbc863b043091ae968cdc55718",
+          "build_info":"workspace-optimizer:0.12.6",
+          "build_env":"darwin/amd64",
+          "module_name":"cw-plus-fork/contracts/cw3-fixed-multisig/",
+          "repository":"https://github.com/apollodao/cw-plus-fork",
+          "release_tag":"https://github.com/apollodao/cw-plus-fork/releases/tag/v0.13.2",
+          "org":"APOLLO DAO",
+          "security_contact":"https://github.com/apollodao/cw-plus-fork/blob/main/SECURITY.md"
+       }
+    }
+ }
